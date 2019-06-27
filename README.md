@@ -35,7 +35,7 @@ INSTRUCTIONS:
     
 How to start app and automated tests:
 
-0.  Build project to get dependencies
+0.  After checkouting project build project to get dependencies
 1.  You need to download chromedriver for your OS and for your chrome version you can do that here http://chromedriver.chromium.org/downloads, after you find chromedriver for your OS and for your chrome download it and extract it on your machine
 2.  Go to module money-converter-tests/src/main/java/base/BaseTest.java and change hardcoded path to chromedriver with path of your chromedriver
 3.  Go to module money-converter-app/src/main/java/launch/Main.java and run main method to start tomcat (if you have some tomcat started on port 8080 you will need to kill that app), now the app is started
